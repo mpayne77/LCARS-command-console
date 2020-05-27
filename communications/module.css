@@ -1,0 +1,82 @@
+
+
+#headerRow {
+	margin-top: 0.5vh;
+	margin-bottom: 0.5vh;
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+}
+
+#headerBar {
+	width: 100vw;
+}
+
+#contentRow {
+	margin-top: 4vh;
+}
+
+#selectionCol, #contentCol {
+	height: 75vh;
+	margin-left: 0.5vw;
+}
+
+#selectionLabel {
+	text-align: center;
+	margin-bottom: 3vh;	
+}
+
+#chan1row, #chan2row, #chan3row, #chan4row, #chan5row, #chan6row {
+	margin-bottom: 2vh;
+}
+
+#chan1cap, #chan2cap, #chan3cap, #chan4cap, #chan5cap, #chan6cap, #chan7cap {
+	min-width: 3vw;
+	width: 6vw;
+}
+
+#chan1title, #chan2title, #chan3title, #chan4title, #chan5title, #chan6title, #chan7title {
+	width: 15vw;
+	text-align: center;
+}
+
+#chan1bar, #chan2bar, #chan3bar, #chan4bar, #chan5bar, #chan6bar, #chan7bar {
+	width: 20vw;
+	text-align: left;
+	align-content: bottom;
+}
+
+#contentBracket {
+	margin-left: 3vw;
+	margin-top: 4vh;
+	height: 72vh;
+	width: 65vh;
+}
+
+#footerBar {
+	margin-bottom: 0.5vh;
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+	height: 10vh;
+}
+#footerElbow {
+	width: 42vw;
+	margin-left: 0.5vw;
+	height: 10vh;
+}
+
+#footerBar {
+	margin-left: 4vw;
+	height: 2vh;
+	margin-top: 8.1vh;
+	width: 53vw;
+	
+}
+
+#iframeWrapper {
+	position: absolute;
+	display: block;
+	margin-top: 3vh;
+	margin-left: 4vw;
+	width: 44vw;
+	height: 66vh;
+}
