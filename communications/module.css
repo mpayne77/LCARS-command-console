@@ -27,6 +27,7 @@
 
 #chan1row, #chan2row, #chan3row, #chan4row, #chan5row, #chan6row {
 	margin-bottom: 2vh;
+	height: 7.5vh;
 }
 
 #chan1cap, #chan2cap, #chan3cap, #chan4cap, #chan5cap, #chan6cap, #chan7cap {
@@ -49,15 +50,10 @@
 	margin-left: 3vw;
 	margin-top: 4vh;
 	height: 72vh;
-	width: 65vh;
+	width: 50vw;
 }
 
-#footerBar {
-	margin-bottom: 0.5vh;
-	margin-left: 0.5vw;
-	margin-right: 0.5vw;
-	height: 10vh;
-}
+
 #footerElbow {
 	width: 42vw;
 	margin-left: 0.5vw;
@@ -65,10 +61,11 @@
 }
 
 #footerBar {
-	margin-left: 4vw;
-	height: 2vh;
-	margin-top: 8.1vh;
-	width: 53vw;
+	position: absolute;
+	left: 42vw;
+	height: 30px;
+	bottom: 0;
+	width: 57vw;
 	
 }
 
