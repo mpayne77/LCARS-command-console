@@ -159,7 +159,7 @@ function disableStates () {
   LCARS.active.chan7cap.set('state', null);
 }
 function footerClick () {
-  window.location = '192.168.1.36/LCARS-command-console/command-console/';
+  window.location = 'http://192.168.1.36/LCARS-command-console/command-console/';
 }
 
 
