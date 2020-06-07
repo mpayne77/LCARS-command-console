@@ -48,8 +48,17 @@ $(document).ready(function() {
   $('#calWrapper').html(calHTML)
   $('#wxWrapper').html(wxHTML)
 
+  $('#button3').click(function(){button3click()});
+  $('#button4').click(function(){button4click()});
+
 });
 
+function button3click() {
+  window.location = 'http://192.168.1.36/LCARS-command-console/communications/';
+}
 
+function button4click() {
+  window.location = 'http://192.168.1.36/astroherpetology/';
+}
 
 

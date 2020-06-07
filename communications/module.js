@@ -60,7 +60,7 @@ let viewportWrapper = LCARS.create({type: 'wrapper', id: 'viewportWrapper', chil
     ]},
   ]},
   {type: 'row', id: 'footerRow', children: [
-    {type: 'elbow', id: 'footerElbow', color: 'bg-orange-4'},
+    {type: 'elbow', id: 'footerElbow', color: 'bg-orange-4', label: 'LCARS\nACCESS'},
     {type: 'bar', id: 'footerBar', color: 'bg-orange-4'}
   ]},
 
@@ -80,6 +80,7 @@ $(document).ready(function() {
   $('#chan5bar').click(function(){chan5click()});
   $('#chan6bar').click(function(){chan6click()});
   $('#chan7bar').click(function(){chan7click()});
+  $('#footerElbow').click(function(){footerClick()});
 
 });
 
@@ -157,6 +158,8 @@ function disableStates () {
   LCARS.active.chan6cap.set('state', null);
   LCARS.active.chan7cap.set('state', null);
 }
-
+function footerClick () {
+  window.location = '192.168.1.36/LCARS-command-console/command-console/';
+}
 
 
