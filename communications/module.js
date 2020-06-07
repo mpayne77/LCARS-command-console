@@ -1,8 +1,3 @@
-// let headerRow = LCARS.create({type: 'row', id: 'headerRow', children: [
-//   {type: 'bar', id: 'headerBar', color: 'bg-orange-3'},
-//   {type: 'title', id: 'headerTitle', text: 'SUBSPACE COMMUNICATIONS'},
-//   {type: 'cap', version: 'round-right', color: 'bg-orange-3'}
-// ]});
 
 let viewportWrapper = LCARS.create({type: 'wrapper', id: 'viewportWrapper', children: [
   {type: 'row', id: 'headerRow', children: [
@@ -77,9 +72,7 @@ let viewportWrapper = LCARS.create({type: 'wrapper', id: 'viewportWrapper', chil
 $(document).ready(function() {
 
   $('body').append((viewportWrapper).dom);
-  //$('#iframeWrapper').html('<iframe style="max-width:100%;" width="100%" height="100%" allow="autoplay" src="https://mprnews.org/listen" frameborder="0"></iframe>')
-
-
+ 
   $('#chan1bar').click(function(){chan1click()});
   $('#chan2bar').click(function(){chan2click()});
   $('#chan3bar').click(function(){chan3click()});
@@ -91,24 +84,36 @@ $(document).ready(function() {
 });
 
 function chan1click() {
+  const beep = document.getElementById('beep2');
+  beep.play();
+  
   $('#iframeWrapper').html('<iframe style="max-width:100%;" width="100%" height="100%" allow="autoplay" src="https://www.iheart.com/live/twin-cities-news-talk-1213/?autoplay=true" frameborder="0"></iframe>');
   disableStates();
   LCARS.active.chan1cap.set('state', 'red-dark-light');
 }
 
 function chan2click() {
+  const beep = document.getElementById('beep2');
+  beep.play();
+
   $('#iframeWrapper').html('<iframe style="max-width:100%;" width="100%" height="100%" allow="autoplay" src="https://mprnews.org/listen" frameborder="0"></iframe>');
   disableStates();
   LCARS.active.chan2cap.set('state', 'red-dark-light');
 }
 
 function chan3click() {
+  const beep = document.getElementById('beep2');
+  beep.play();
+
   $('#iframeWrapper').html('<iframe style="max-width:100%;" width="100%" height="100%" allow="autoplay" src="https://www.classicalmpr.org/listen" frameborder="0"></iframe>');
   disableStates();
   LCARS.active.chan3cap.set('state', 'red-dark-light');
 }
 
 function chan4click() {
+  const beep = document.getElementById('beep2');
+  beep.play();
+
   console.log('chan4click');
   $('#iframeWrapper').html('<iframe style="max-width:100%;" width="100%" height="100%" allow="autoplay" src="https://live.1500espn.com/listen/" frameborder="0"></iframe>');
   disableStates();
@@ -116,18 +121,27 @@ function chan4click() {
 }
 
 function chan5click() {
+  const beep = document.getElementById('beep2');
+  beep.play();
+
   $('#iframeWrapper').html('<iframe style="max-width:100%;" width="100%" height="100%" allow="autoplay" src="http://player.listenlive.co/47141/en" frameborder="0"></iframe>');
   disableStates();
   LCARS.active.chan5cap.set('state', 'red-dark-light');
 }
 
 function chan6click() {
+  const beep = document.getElementById('beep2');
+  beep.play();
+
   $('#iframeWrapper').html('<iframe style="max-width:100%;" width="100%" height="100%" allow="autoplay" src="http://player.listenlive.co/57041/en" frameborder="0"></iframe>');
   disableStates();
   LCARS.active.chan6cap.set('state', 'red-dark-light');
 }
 
 function chan7click() {
+  const beep = document.getElementById('beep2');
+  beep.play();
+  
   $('#iframeWrapper').html('<iframe style="max-width:100%;" width="100%" height="100%" allow="autoplay" src="https://www.iheart.com/live/93x-5348/" frameborder="0"></iframe>');
   disableStates();
   LCARS.active.chan7cap.set('state', 'red-dark-light');
