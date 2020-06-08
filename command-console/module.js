@@ -8,10 +8,10 @@ let viewportWrapper = LCARS.create({type: 'wrapper', id: 'viewportWrapper', chil
   ]},
   {type: 'row', id: 'contentRow', children: [
     {type: 'column', id: 'buttonCol', children: [
-      {type: 'button', id: 'button1', text: 'ENVIRONMENTAL', color: 'bg-green-4'},
-      {type: 'button', id: 'button2', text: 'DUTY ROSTER', color: 'bg-green-4'},
-      {type: 'button', id: 'button3', text: 'HAILING FREQUENCIES', color: 'bg-green-4'},
-      {type: 'button', id: 'button4', text: 'ASTROHERPETOLOGY', color: 'bg-green-4'},
+      {type: 'button', id: 'button1', label: 'ENVIRONMENTAL', color: 'bg-orange-2'},
+      {type: 'button', id: 'button2', label: 'DUTY\nROSTER', color: 'bg-blue-3'},
+      {type: 'button', id: 'button3', label: 'HAILING\nFREQUENCIES', color: 'bg-blue-4'},
+      {type: 'button', id: 'button4', label: 'ASTROHERPETOLOGY', color: 'bg-green-4'},
       //{type: 'button', id: 'button5', text: 'button5', color: 'bg-green-4'},
       //{type: 'button', id: 'button6', text: 'button6', color: 'bg-green-4'},
     ]},
