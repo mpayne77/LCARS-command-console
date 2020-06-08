@@ -17,13 +17,12 @@
 
 #headerBar {
 	height: 8vh;
-	width: 20vw;
+	width: 22.5vw;
 }
 
 
 #headerTitle {
 
-	width: 46vw;
 }
 
 #headerCap {
@@ -34,7 +33,7 @@
 #contentRow {
 	margin-top: 0.5vh;
 	margin-left: 0.5vw;
-	height: 72vh
+	height: 71.5vh
 }
 
 #buttonCol {
@@ -72,7 +71,7 @@
 	position: absolute;
 	bottom: 0;
 	width: 11vw;
-	margin-left: 82.5vw;
+	margin-left: 83vw;
 }
 
 #footerBar2 {
