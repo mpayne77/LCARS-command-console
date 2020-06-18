@@ -25,7 +25,7 @@ let viewportWrapper = LCARS.create({type: 'wrapper', id: 'viewportWrapper', chil
 
   ]},
   {type: 'row', id: 'footerRow', children: [
-    {type: 'elbow', id: 'footerElbow', version: 'horizontal', direction: 'bottom-left', color: 'bg-orange-4'},
+    {type: 'elbow', id: 'footerElbow', version: 'horizontal', direction: 'bottom-left', color: 'bg-orange-4', label: 'LCARS\nACCESS'},
     {type: 'bar', id: 'footerBar', color: 'bg-orange-4'},
     {type: 'title', id: 'footerTitle', text: 'NCC 8170-P', size: 'small', color: 'bg-orange-3'},
     {type: 'bar', id: 'footerBar2', version: 'round-right', color: 'bg-orange-4'}
@@ -50,6 +50,7 @@ $(document).ready(function() {
 
   $('#button3').click(function(){button3click()});
   $('#button4').click(function(){button4click()});
+  $('#footerElbow').click(function(){footerClick()});
 
 });
 
@@ -60,5 +61,10 @@ function button3click() {
 function button4click() {
   window.location = 'http://192.168.1.36/astroherpetology/';
 }
+
+function footerClick() {
+  window.location = 'http://192.168.1.36/LCARS-command-console/command-console/';
+}
+
 
 
