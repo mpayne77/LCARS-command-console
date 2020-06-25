@@ -48,11 +48,16 @@ $(document).ready(function() {
   $('#calWrapper').html(calHTML)
   $('#wxWrapper').html(wxHTML)
 
+  $('#button1').click(function(){button1click()});
   $('#button3').click(function(){button3click()});
   $('#button4').click(function(){button4click()});
   $('#footerElbow').click(function(){footerClick()});
 
 });
+
+function button1click() {
+  window.location = 'http://192.168.1.36/LCARS-command-console/environmental/';
+}
 
 function button3click() {
   window.location = 'http://192.168.1.36/LCARS-command-console/communications/';

@@ -1,0 +1,90 @@
+
+#headerRow {
+	margin-left: 0.5vw;
+	margin-top: 0.5vh;
+	margin-right: 0.5vw;
+}
+
+#headerElbow {
+	width: 25vw;
+	height: 14vh;
+}
+
+#headerElbow .bar {
+	max-height: 8vh;
+	height: 8vh;
+}
+
+#headerBar {
+	height: 8vh;
+	width: 30vw;
+}
+
+
+#headerTitle {
+
+}
+
+#headerCap {
+	height: 8vh;
+	width: 5vw;
+}
+
+#contentRow {
+	margin-top: 0.5vh;
+	margin-left: 0.5vw;
+	height: 71.5vh
+}
+
+#buttonCol {
+	display: flex;
+	flex-direction: column;
+	width: 25vw;
+	margin-bottom: 0.5vh;
+}
+
+#buttonCol .button {
+	flex: 1;
+}
+
+#footerRow {
+	margin-left: 0.5vw;
+}
+
+#footerElbow {
+	width: 25vw;
+	height: 10vh;
+}
+
+#footerElbow .bar {
+
+}
+
+#footerBar {
+	position: absolute;
+	bottom: 0;
+	margin-left: 10vw;
+	width: 72.5vw;
+}
+
+#footerTitle {
+	position: absolute;
+	bottom: 0;
+	width: 11vw;
+	margin-left: 83vw;
+}
+
+#footerBar2 {
+	position: absolute;
+	bottom: 0;
+	margin-left: 96vw;
+	width: 3vw;
+}
+
+#contentWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 1vw;
+	width: 72vw;
+}
