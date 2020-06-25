@@ -56,6 +56,7 @@ $(document).ready(function() {
 });
 
 function button1click() {
+  console.log('button1');
   window.location = 'http://192.168.1.36/LCARS-command-console/environmental/';
 }
 
