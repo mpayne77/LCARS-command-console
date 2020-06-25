@@ -45,8 +45,8 @@ style="border-width:0" width="350" height="500" frameborder="0" scrolling="no"><
 $(document).ready(function() {
 
   $('body').append((viewportWrapper).dom);
-  $('#calWrapper').html(calHTML)
-  $('#wxWrapper').html(wxHTML)
+  $('#calWrapper').html(calHTML);
+  $('#wxWrapper').html(wxHTML);
 
   $('#button1').click(function(){button1click()});
   $('#button3').click(function(){button3click()});
@@ -56,7 +56,6 @@ $(document).ready(function() {
 });
 
 function button1click() {
-  console.log('button1');
   window.location = 'http://192.168.1.36/LCARS-command-console/environmental/';
 }
 
