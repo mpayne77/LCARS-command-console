@@ -6,7 +6,7 @@
 }
 
 #headerElbow {
-	width: 25vw;
+	width: 20vw;
 	height: 14vh;
 }
 
@@ -17,7 +17,7 @@
 
 #headerBar {
 	height: 8vh;
-	width: 30vw;
+	width: 35vw;
 }
 
 
@@ -39,7 +39,7 @@
 #buttonCol {
 	display: flex;
 	flex-direction: column;
-	width: 25vw;
+	width: 20vw;
 	margin-bottom: 0.5vh;
 }
 
@@ -52,7 +52,7 @@
 }
 
 #footerElbow {
-	width: 25vw;
+	width: 20vw;
 	height: 10vh;
 }
 
@@ -82,9 +82,8 @@
 }
 
 #contentWrapper {
-	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-left: 1vw;
-	width: 72vw;
+
+
 }

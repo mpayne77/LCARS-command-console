@@ -32,10 +32,11 @@ let viewportWrapper = LCARS.create({type: 'wrapper', id: 'viewportWrapper', chil
 
 ]});
 
-let forecastHTML = `<div id="cont_c38ad94fd99bff2e3ed8be3df3318271"><script type="text/javascript" async src="https://www.theweather.com/wid_loader/c38ad94fd99bff2e3ed8be3df3318271"></script></div>`
+// let forecastHTML = `<div id="cont_c38ad94fd99bff2e3ed8be3df3318271"><script type="text/javascript" async src="https://www.theweather.com/wid_loader/c38ad94fd99bff2e3ed8be3df3318271"></script></div>`
 
+let forecastHTML = `<iframe src="https://www.meteoblue.com/en/weather/widget/three/golden-valley_united-states-of-america_5028163?geoloc=fixed&nocurrent=0&noforecast=0&days=7&tempunit=FAHRENHEIT&windunit=KNOT&layout=dark"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 805px; height: 525px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/week/golden-valley_united-states-of-america_5028163?utm_source=weather_widget&utm_medium=linkus&utm_content=three&utm_campaign=Weather%2BWidget" target="_blank">meteoblue</a></div>`
 
-let radarHTML = `<iframe width="730" height="500" src="https://embed.windy.com/embed2.html?lat=44.801&lon=-93.246&detailLat=44.530&detailLon=-93.005&width=730&height=500&zoom=7&level=surface&overlay=radar&product=radar&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>`
+let radarHTML = `<iframe width="790" height="515" src="https://embed.windy.com/embed2.html?lat=44.801&lon=-93.246&detailLat=44.530&detailLon=-93.005&width=730&height=500&zoom=7&level=surface&overlay=radar&product=radar&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>`
 
 
 $(document).ready(function() {
