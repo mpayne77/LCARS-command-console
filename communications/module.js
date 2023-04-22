@@ -30,8 +30,8 @@ let viewportWrapper = LCARS.create({type: 'wrapper', id: 'viewportWrapper', chil
       ]},
       {type: 'row', id: 'chan5row', children: [
         {type: 'button', id: 'chan5cap', version: 'round-left', color: 'bg-yellow-4'},
-        {type: 'title', id: 'chan5title',  size: 'half', text: 'FM 95.5'},
-        {type: 'button', id: 'chan5bar',  text: 'hiphop/pop music', color: 'bg-green-3'},
+        {type: 'title', id: 'chan5title',  size: 'half', text: 'AM 830'},
+        {type: 'button', id: 'chan5bar',  text: 'News/talk', color: 'bg-green-3'},
       ]},
       {type: 'row', id: 'chan6row', children: [
         {type: 'button', id: 'chan6cap', version: 'round-left', color: 'bg-yellow-4'},
@@ -125,7 +125,7 @@ function chan5click() {
   const beep = document.getElementById('beep2');
   beep.play();
 
-  $('#iframeWrapper').html('<iframe style="max-width:100%;" width="100%" height="100%" allow="autoplay" src="http://player.listenlive.co/47141/en" frameborder="0"></iframe>');
+  $('#iframeWrapper').html('<iframe style="max-width:100%;" width="100%" height="100%" allow="autoplay" src="https://www.audacy.com/stations/wccoradio" frameborder="0"></iframe>');
   disableStates();
   LCARS.active.chan5cap.set('state', 'red-dark-light');
 }
